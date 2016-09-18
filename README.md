@@ -2,7 +2,7 @@
 This jQuery plugin ensures that you will get the highest quality thumbnails for your HD YouTube videos, regardless of the embedding sizes or the original thumbnail quality settings of the YouTube videos.
 
 ##Examples
-Please visit [this webpage](https://simonlidesign.github.io/youtube-hd-thumbnail.html) for examples of using this plugin.
+Please visit [this webpage](https://simonlidesign.github.io/YouTubeHDThumbnail/) for examples of using this plugin.
 
 ##Usage
 Include the CSS stylesheet within the head tag.

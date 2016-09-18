@@ -3,11 +3,35 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title></title>
+	<title>Embedding HD YouTube Videos with High Quality Thumbnails</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/YouTube.HD.Thumbnail.css"> 
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/YouTube.HD.Thumbnail.css">
+	<style>
+		html, body{
+			font-size: 16px;
+			line-height: 1.6;
+			color: #333;
+			font-family: 'PT Sans', serif;
+		}
+		h1,h2,h3,h4,h5,h6{
+			font-weight: 700;
+		}
+		.container{
+			max-width: 37.5em;
+			margin-bottom: 4em;
+		}
+		h1{
+			margin-top: 2em;
+			margin-bottom: .5em;
+		}
+		h2{
+			margin-top: 1em;
+			margin-bottom: .5em;
+		}
+	</style>
 </head>
 <body>
 	<div class="container">
@@ -15,6 +39,12 @@
 		<p>This jQuery plugin ensures that you will get the highest quality thumbnails for your HD YouTube videos, regardless of the embedding sizes or the original thumbnail quality settings of the YouTube videos.</p>
 
 		<h2>Examples</h2>
+		<h5>Original embed</h5>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/ObQEXhEXxw8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		
+		<h5>Embed using this plugin with high quality thumbnail</h5>
+		<iframe class="yt-hd-thumbnail" width="560" height="315" src="https://www.youtube.com/embed/ObQEXhEXxw8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
 		<h5>Default style</h5>
 		<iframe class="yt-hd-thumbnail" width="560" height="315" src="https://www.youtube.com/embed/_skaxGTnWUU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
