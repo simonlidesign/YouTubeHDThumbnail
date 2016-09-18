@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/YouTube.HD.Thumbnail.css"> 
+</head>
+<body>
+	<div class="container">
+		<h1>Embedding HD YouTube Videos with High Quality Thumbnails</h1>
+		<p>This jQuery plugin ensures that you will get the highest quality thumbnails for your HD YouTube videos, regardless of the embedding sizes or the original thumbnail quality settings of the YouTube videos.</p>
+
+		<h2>Examples</h2>
+		<h5>Default style</h5>
+		<iframe class="yt-hd-thumbnail" width="560" height="315" src="https://www.youtube.com/embed/_skaxGTnWUU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+		<h5>Darkend thumbnail with hover effect</h5>
+		<iframe class="yt-hd-thumbnail-darken" width="560" height="315" src="https://www.youtube.com/embed/5aOSxep4ni0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+		<h2>Usage</h2>
+		<p>Include the CSS stylesheet within the head tag.</p>
+		<pre>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/YouTube.HD.Thumbnail.css&quot;&gt; 
+	</pre>
+		<p>Then include the JavaScript file before the closing body tag.</p>
+		<pre>&lt;script src=&quot;js/jQuery.YouTube.HD.Thumbnail.js&quot;&gt;&lt;/script&gt;</pre>
+		<p>Copy the code for embedding from your YouTube video and add a class name like <strong>yt-hd-thumbnail</strong>.</p>
+		<pre>&lt;iframe class=&quot;yt-hd-thumbnail&quot; width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5aOSxep4ni0?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</pre>
+		<p>Activate the plugin by adding the following code to your JavaScript file.</p>
+		<pre>$('iframe.yt-hd-thumbnail').youTubeHDThumbnail({
+			darkenThumbnail: false
+		});</pre>
+
+		<h2>Options</h2>
+		The following options are provided in this jQuery plugin.
+		<ul>
+			<li><strong>darkenThumbnail</strong>: true / false<br>Specifies whether to darken the thumbnail</li>
+		</ul>
+
+		<h2>About</h2>
+		<p>MIT License</p>
+		<p>Created by <a href="http://www.simon-li.com" target="blank">Simon Li</a> in Sep 2016</p>
+	</div>
+	
+	
+	<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.4.min.js"><\/script>')</script>
+	<script src="js/jQuery.YouTube.HD.Thumbnail.js"></script>
+	<script>
+		(function ($) {
+			$('iframe.yt-hd-thumbnail').youTubeHDThumbnail({darkenThumbnail: false});
+			$('iframe.yt-hd-thumbnail-darken').youTubeHDThumbnail({darkenThumbnail: true});
+		})(jQuery);
+	</script>
+</body>
+</html>
