@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/YouTube.HD.Thumbnail.css">
 	<style>
 		html, body{
-			font-size: 16px;
+			font-size: 23px;
 			line-height: 1.6;
 			color: #333;
 			font-family: 'PT Sans', serif;
@@ -26,10 +26,18 @@
 		h1{
 			margin-top: 2em;
 			margin-bottom: .5em;
+			font-size: 2.25em;
 		}
 		h2{
 			margin-top: 1em;
 			margin-bottom: .5em;
+			font-size: 1.875em;
+		}
+		h5{
+			font-size: .875em;
+		}
+		pre{
+			font-size: .8125em;
 		}
 	</style>
 </head>
@@ -39,30 +47,30 @@
 		<p>This jQuery plugin ensures that you will get the highest quality thumbnails for your HD YouTube videos, regardless of the embedding sizes or the original thumbnail quality settings of the YouTube videos.</p>
 
 		<h2>Examples</h2>
-		<h5>Original embed</h5>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/ObQEXhEXxw8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		<h5>Original embed (Video credit: <a href="https://www.youtube.com/watch?v=xzUumjHL5zE" target="_blank">Test - 3 Minute Track (Original Mix) by Ben Thomas</a>)</h5>
+		<p></p>
+		<iframe width="853" height="480" src="https://www.youtube.com/embed/xzUumjHL5zE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 		
 		<h5>Embed using this plugin with high quality thumbnail</h5>
-		<iframe class="yt-hd-thumbnail" width="560" height="315" src="https://www.youtube.com/embed/ObQEXhEXxw8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		<iframe class="yt-hd-thumbnail" width="853" height="480" src="https://www.youtube.com/embed/xzUumjHL5zE" frameborder="0" allowfullscreen></iframe>
 
 		<h5>Default style</h5>
-		<iframe class="yt-hd-thumbnail" width="560" height="315" src="https://www.youtube.com/embed/_skaxGTnWUU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		<iframe class="yt-hd-thumbnail" width="853" height="480" src="https://www.youtube.com/embed/_skaxGTnWUU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 		<h5>Darkend thumbnail with hover effect</h5>
-		<iframe class="yt-hd-thumbnail-darken" width="560" height="315" src="https://www.youtube.com/embed/5aOSxep4ni0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+		<iframe class="yt-hd-thumbnail-darken" width="853" height="480" src="https://www.youtube.com/embed/5aOSxep4ni0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 		<h2>Usage</h2>
 		<p>Include the CSS stylesheet within the head tag.</p>
-		<pre>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/YouTube.HD.Thumbnail.css&quot;&gt; 
-	</pre>
+		<pre>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/YouTube.HD.Thumbnail.css&quot;&gt;</pre>
 		<p>Then include the JavaScript file before the closing body tag.</p>
 		<pre>&lt;script src=&quot;js/jQuery.YouTube.HD.Thumbnail.js&quot;&gt;&lt;/script&gt;</pre>
 		<p>Copy the code for embedding from your YouTube video and add a class name like <strong>yt-hd-thumbnail</strong>.</p>
 		<pre>&lt;iframe class=&quot;yt-hd-thumbnail&quot; width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/5aOSxep4ni0?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</pre>
 		<p>Activate the plugin by adding the following code to your JavaScript file.</p>
 		<pre>$('iframe.yt-hd-thumbnail').youTubeHDThumbnail({
-			darkenThumbnail: false
-		});</pre>
+	darkenThumbnail: false
+});</pre>
 
 		<h2>Options</h2>
 		The following options are provided in this jQuery plugin.
