@@ -6,9 +6,10 @@ Please visit [this webpage](https://simonlidesign.github.io/youtube-hd-thumbnail
 
 ##Usage
 Include the CSS stylesheet within the head tag.
-```<link rel="stylesheet" href="css/YouTube.HD.Thumbnail.css"> 
-
 ```
+<link rel="stylesheet" href="css/YouTube.HD.Thumbnail.css"> 
+```
+
 Then include the JavaScript file before the closing body tag.
 ```<script src="js/jQuery.YouTube.HD.Thumbnail.js"></script>
 ```
