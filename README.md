@@ -11,14 +11,16 @@ Include the CSS stylesheet within the head tag.
 ```
 
 Then include the JavaScript file before the closing body tag.
-```<script src="js/jQuery.YouTube.HD.Thumbnail.js"></script>
+```
+<script src="js/jQuery.YouTube.HD.Thumbnail.js"></script>
 ```
 Copy the code for embedding from your YouTube video and add a class name like **yt-hd-thumbnail**.
-```<iframe class="yt-hd-thumbnail" width="560" height="315" src="https://www.youtube.com/embed/5aOSxep4ni0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
+```
+<iframe class="yt-hd-thumbnail" width="560" height="315" src="https://www.youtube.com/embed/5aOSxep4ni0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 ```
 Activate the plugin by adding the following code to your JavaScript file.
-```$('iframe.yt-hd-thumbnail').youTubeHDThumbnail({
+```
+$('iframe.yt-hd-thumbnail').youTubeHDThumbnail({
 	darkenThumbnail: false
 });
 ```
