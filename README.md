@@ -32,4 +32,5 @@ The following options are provided in this jQuery plugin.
 
 ##About
 MIT License
+
 Created by [Simon Li](http://www.simon-li.com) in Sep 2016
