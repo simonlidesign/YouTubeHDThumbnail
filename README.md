@@ -2,11 +2,7 @@
 This jQuery plugin ensures that you will get the highest quality thumbnails for your HD YouTube videos, regardless of the embedding sizes or the original thumbnail quality settings of the YouTube videos.
 
 ##Examples
-#####Default style
-<iframe class="yt-hd-thumbnail" width="560" height="315" src="https://www.youtube.com/embed/_skaxGTnWUU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-#####Darkend thumbnail with hover effect
-<iframe class="yt-hd-thumbnail-darken" width="560" height="315" src="https://www.youtube.com/embed/5aOSxep4ni0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+Please visit [this webpage](https://simonlidesign.github.io/youtube-hd-thumbnail.html) for examples of using this plugin.
 
 ##Usage
 Include the CSS stylesheet within the head tag.

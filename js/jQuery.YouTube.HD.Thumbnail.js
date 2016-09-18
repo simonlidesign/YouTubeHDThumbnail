@@ -1,11 +1,13 @@
 /*
+ *  YouTube HD Thumbnail
  *  jQuery plugin for creating high quality thumbnails for YouTube HD videos
+ *  Version: 1.0
  *  Author: Simon Li
  *  http://www.simon-li.com
  *  MIT License
  *  
  *  
- *  jQuery plugin template based on jquery-boilerplate - v4.0.0
+ *  This plugin was created based on jquery-boilerplate - v4.0.0
  *  http://jqueryboilerplate.com
  *
  *  Made by Zeno Rocha
