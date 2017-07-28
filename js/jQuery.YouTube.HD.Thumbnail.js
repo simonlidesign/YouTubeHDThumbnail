@@ -51,7 +51,7 @@
 						.addClass('yt-hd-thumbnail')
 						.append(
 							$('<img/>').attr(
-								{'src': 'http://i.ytimg.com/vi/'+ this.videoId + '/maxresdefault.jpg'}
+								{'src': 'https://i.ytimg.com/vi/'+ this.videoId + '/maxresdefault.jpg'}
 							)
 						);
 				} else {
