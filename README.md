@@ -1,10 +1,13 @@
-#Embedding HD YouTube Videos with High Quality Thumbnails
+#Embedding HD YouTube Videos with High Quality Thumbnails#
+
 This jQuery plugin ensures that you will get the highest quality thumbnails for your HD YouTube videos, regardless of the embedding sizes or the original thumbnail quality settings of the YouTube videos.
 
-##Examples
+##Examples##
+
 Please visit [this webpage](https://simonlidesign.github.io/YouTubeHDThumbnail/) for examples of using this plugin.
 
-##Usage
+##Usage##
+
 Include the CSS stylesheet within the head tag.
 ```
 <link rel="stylesheet" href="css/YouTube.HD.Thumbnail.css"> 
@@ -25,12 +28,13 @@ $('iframe.yt-hd-thumbnail').youTubeHDThumbnail({
 });
 ```
 
-##Options
+##Options##
+
 The following options are provided in this jQuery plugin.
 * **darkenThumbnail**: true / false
   Specifies whether to darken the thumbnail
 
-##About
+##About##
 MIT License
 
 Created by [Simon Li](http://www.simon-li.com) in Sep 2016
